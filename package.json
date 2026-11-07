@@ -1,0 +1,27 @@
+{
+  "name": "drive-agent-chatbot",
+  "version": "1.0.0",
+  "description": "Level 1 Agentic AI Chatbot for Google Drive navigation, search, and data extraction",
+  "main": "src/cli.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/cli.js",
+    "web": "node src/server.js",
+    "test:auth": "node src/scripts/testAuth.js"
+  },
+  "keywords": [
+    "agentic-ai",
+    "google-drive",
+    "chatbot",
+    "function-calling",
+    "gemini",
+    "javascript"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@google/genai": "^0.1.2",
+    "googleapis": "^144.0.0",
+    "dotenv": "^16.4.7"
+  }
+}

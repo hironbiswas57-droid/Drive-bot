@@ -1,0 +1,32 @@
+# ========================================================
+# Google Gemini API Key
+# Get one at: https://aistudio.google.com/app/apikey
+# ========================================================
+GEMINI_API_KEY=AQ.Ab8RN6Ippby6DS3-wwsfgiasiL7dZGmtcSWqUF3Eg44J7qHwgA
+GEMINI_MODEL=gemini-3.8-flash
+
+# ========================================================
+# Web Server Configuration
+# ========================================================
+PORT=3000
+
+# Optional: Set to true to force Mock Drive simulator
+# USE_MOCK_DRIVE=false
+
+# ========================================================
+# Google Drive API Authentication (OAuth 2.0)
+# 1. Create a project in Google Cloud Console: https://console.cloud.google.com
+# 2. Enable "Google Drive API"
+# 3. Configure OAuth Consent Screen (External / Desktop App)
+# 4. Create Credentials -> OAuth 2.0 Client IDs -> Desktop Application
+# 5. Paste Client ID and Client Secret below:
+# ========================================================
+GOOGLE_CLIENT_ID=your_oauth_client_id.apps.googleusercontent.com
+GOOGLE_CLIENT_SECRET=your_oauth_client_secret
+GOOGLE_REDIRECT_URI=http://localhost:3000/oauth2callback
+
+# Optional: Path to saved token file (defaults to ./tokens.json)
+GOOGLE_TOKEN_PATH=./tokens.json
+
+# Optional: Alternatively use a Service Account JSON file path
+# GOOGLE_APPLICATION_CREDENTIALS=./service-account.json

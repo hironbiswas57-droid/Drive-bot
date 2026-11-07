@@ -1,0 +1,39 @@
+# ========================================================
+# API Keys, Secrets & Environment Configurations
+# ========================================================
+.env
+.env.*
+!.env.example
+*.env
+
+# Google API Credentials, OAuth tokens & Service Accounts
+credentials.json
+client_secret*.json
+token.json
+tokens.json
+service-account*.json
+gcp-key*.json
+*.pem
+*.key
+
+# ========================================================
+# Dependencies & Build Outputs
+# ========================================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ========================================================
+# Runtime Data, Logs & System Files
+# ========================================================
+*.log
+.DS_Store
+Thumbs.db
+
+# IDE & Editor Settings
+.idea/
+.vscode/
+*.swp
+*.swo
